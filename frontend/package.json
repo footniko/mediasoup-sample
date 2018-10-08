@@ -1,0 +1,18 @@
+{
+  "name": "mediasoup-frontend",
+  "version": "0.0.1",
+  "description": "A basic example of how to use Mediasoup on client side",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mediasoup"
+  ],
+  "author": "Mykola Popko <Footniko@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
