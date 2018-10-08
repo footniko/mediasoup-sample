@@ -1,6 +1,6 @@
 MediaSoup sample
 ================
-Since there are some users (including me) complaining about complexity of MediaSoup video conferencing module and lack of small/simple examples, I decided to create a bare minimum example of how can it be used in order to get people to understand it better and allow its faster adoption by the community.  
+Since there are some users (including me) complaining about complexity of [MediaSoup] video conferencing module and lack of small/simple examples, I decided to create a bare minimum example of how can it be used in order to get people to understand it better and allow its faster adoption by the community.  
 This example consists of two independent parts: **frontend** and **server** and implements **many-to-many** video conferencing:
 
 Frontend
@@ -37,3 +37,6 @@ It should create video elements in both tabs with remote peers.
 Note
 ----
 I was trying to simplify everything as much as I could, so there are no ssl support, nor additional libraries. It's plain javascript. For the sake of simplicity, I also omit some events handling (for example, there are no handler on the frontend, when some peer leaves a room (video element will stay on html page)). Also, since I was in rush, I might miss something. I also didn't test much.
+
+
+[MediaSoup]: <https://github.com/versatica/mediasoup>
