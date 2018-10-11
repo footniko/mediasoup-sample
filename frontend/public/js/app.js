@@ -133,6 +133,7 @@ function handleConsumer(consumer) {
       if (consumer.kind === 'video') {
         const video = document.createElement('video');
         video.setAttribute('style', 'max-width: 400px;');
+        video.setAttribute('playsinline', '');
         video.srcObject = stream;
         document.getElementById('container').appendChild(video);
         video.play();
