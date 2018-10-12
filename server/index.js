@@ -89,7 +89,9 @@ io.on('connection', (socket) => {
 
   // Invokes when connection lost on a client side
   socket.on('disconnect', () => {
-    mediaPeer.close();
+    if (mediaPeer) {
+      mediaPeer.close();
+    }
   });
 
   /**
