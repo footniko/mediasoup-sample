@@ -38,5 +38,10 @@ Note
 ----
 I was trying to simplify everything as much as I could, so there are no ssl support, nor additional libraries. It's plain javascript. For the sake of simplicity, I also omit some events handling (for example, there are no handler on the frontend, when some peer leaves a room (video element will stay on html page)). Also, since I was in rush, I might miss something. I also didn't test much.
 
+License
+-------
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 [MediaSoup]: <https://github.com/versatica/mediasoup>
